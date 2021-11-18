@@ -1,0 +1,29 @@
+#footer {
+    background-color: rgb(20, 20, 92);
+    padding-top: 1.6rem;
+    padding-bottom: 0;
+}
+
+#footer a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#footer a:hover {
+    color: rgb(211, 255, 124);
+}
+
+.fab {
+    color: white;
+    font-size: 2rem;
+}
+
+.footerparagraph {
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
