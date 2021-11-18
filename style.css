@@ -17,17 +17,27 @@
     color: rgb(211, 255, 124);
 }
 
-.footer2 {
-    background-color: rgb(13, 13, 58);
+#footer i:hover {
+    color: rgb(211, 255, 124);
+}
+
+#footer2 {
+    background-color: rgb(16, 16, 65);
+    margin-top: 1.6rem;
 }
 
 .fab {
     color: white;
-    font-size: 2rem;
+    font-size: 1.6rem;
+}
+
+.fas {
+    font-size: 1.6rem;
 }
 
 .footerparagraph {
     color: white;
     font-size: 1rem;
     margin-top: 1rem;
+    font-family: Roboto, sans-serif;
 }
