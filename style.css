@@ -1,7 +1,23 @@
+/* ·······················   SCROLL BEHAVIOR ···················· */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+/* ·······················   FOOTER ···················· */
+
 #footer {
     background-color: rgb(20, 20, 92);
     padding-top: 1.6rem;
     padding-bottom: 0;
+}
+
+.footer:hover {
+    transform: scale(1,1.2);
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
 }
 
 #footer a {
