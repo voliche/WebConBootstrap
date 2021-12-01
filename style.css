@@ -12,7 +12,13 @@ html {
 
 
 .navbar-brand {
-    margin-left: 7rem;
+    margin-left: 6rem;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.5,1.5);
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
 }
 
 .navbar-nav {
@@ -25,6 +31,54 @@ html {
     font-weight: bold;
 }
 
+.navbar a:hover {
+   text-decoration: overline;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+}
+
+/* ·······················   MAIN ···················· */
+
+#main  .carousel-inner img {
+  max-height: 90vh;
+  object-fit: cover; 
+  filter: grayscale(70%); 
+}
+
+#carousel {
+    position: relative;
+    top: 4.2rem;
+    margin-bottom: 4.2rem;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+.overlay {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+
 /* ·······················   FOOTER ···················· */
 
 #footer {
@@ -35,7 +89,7 @@ html {
 }
 
 .footer:hover {
-    transform: scale(1,1.2);
+    transform: scale(1.5,1.5);
     transition-duration: 0.2s;
     transition-delay: 0.1s;
 }
