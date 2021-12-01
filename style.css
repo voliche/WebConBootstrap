@@ -12,7 +12,7 @@ html {
 
 
 .navbar-brand {
-    margin-left: 6rem;
+    margin-left: 1rem;
 }
 
 .navbar-brand:hover {
@@ -42,6 +42,13 @@ html {
     z-index: 2;
     display: flex;
 }
+
+.navbar-toggler {
+    border-color: rgb(16, 16, 65) !important;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
 
 /* ·······················   MAIN ···················· */
 
