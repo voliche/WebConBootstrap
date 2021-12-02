@@ -6,8 +6,18 @@ html {
 
 /* ·······················   HEADER ···················· */
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    background-color: rgb(16, 16, 65) !important;
+}
+
 #header img {
     width: 5rem;
+    border-radius: 5px;
 }
 
 
@@ -31,22 +41,28 @@ html {
     font-weight: bold;
 }
 
+.navbar a {
+    color: white !important;
+}
+
 .navbar a:hover {
    text-decoration: overline;
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-    display: flex;
-}
 
 .navbar-toggler {
-    border-color: rgb(16, 16, 65) !important;
+    border-color: white !important;
     border-width: 3px;
     border-radius: 15px;
+}
+
+a.dropdown-item {
+    color:  rgb(16, 16, 65) !important;
+    font-weight: 500;
+}
+
+hr.dropdown-divider {
+    border-width: 2px;
 }
 
 
