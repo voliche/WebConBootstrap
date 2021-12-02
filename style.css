@@ -39,7 +39,12 @@ body {
 }
 
 .navbar-nav {
-    margin-right: 9rem;
+    margin-right: 0.2rem;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .text-nav {
@@ -70,6 +75,10 @@ a.dropdown-item {
 
 hr.dropdown-divider {
     border-width: 2px;
+}
+
+.dropdown-menu {
+    text-align: right;
 }
 
 
