@@ -4,6 +4,13 @@ html {
     scroll-behavior: smooth;
   }
 
+/* ·······················   BODY ···················· */
+
+body {
+    
+    font-family: 'Baloo 2', cursive;
+}
+
 /* ·······················   HEADER ···················· */
 
 .navbar {
@@ -100,6 +107,37 @@ hr.dropdown-divider {
     justify-content: center;
     text-align: center;
 }
+
+.btn-honey1 {
+    background-color: rgb(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    font-weight: 600;
+}
+
+.btn-honey1:hover {
+    background-color: rgb(255, 197, 71);
+    color:  rgb(16, 16, 65);
+    border-color:  rgb(255, 197, 71);
+
+}
+
+.btn-honey2 {
+    background-color: rgb(255, 197, 71);
+    border-color:rgb(16, 16, 65);
+    color: rgb(16, 16, 65);
+    border-width: 2px;
+    font-weight: 600;
+}
+
+.btn-honey2:hover {
+    background-color: rgb(16, 16, 65);
+    color: rgb(255, 197, 71);
+    border-color:  rgb(16, 16, 65);
+
+}
+
 
 
 /* ·······················   FOOTER ···················· */
