@@ -76,7 +76,7 @@ hr.dropdown-divider {
 
 #carousel {
     position: relative;
-    top: 4.2rem;
+    top: 4rem;
     margin-bottom: 4.2rem;
 }
 
@@ -134,6 +134,12 @@ hr.dropdown-divider {
     color: rgb(211, 255, 124);
 }
 
+#footer1 {
+    display: flex;
+    padding: 0.2rem;
+    align-items: center;
+}
+
 #footer2 {
     background-color: rgb(16, 16, 65);
     margin-top: 1.6rem;
@@ -141,13 +147,11 @@ hr.dropdown-divider {
 
 .fab {
     color: white;
-    font-size: 1.6rem;
-    margin: 1rem;
+    font-size: 1.4rem;
 }
 
 .fas {
-    font-size: 1.6rem;
-    margin: 1rem;
+    font-size: 1.4rem;
 }
 
 .footerparagraph {
