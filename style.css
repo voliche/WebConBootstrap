@@ -61,12 +61,33 @@ body {
    text-decoration: overline;
 }
 
+.navbar-icon-bars {
+    color: white;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 2rem !important;
+}
 
 .navbar-toggler {
-    border-color: white !important;
-    border-width: 3px;
-    border-radius: 15px;
+    border: 0;
 }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-icon-bars:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.fa-times {
+    color: red;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 2rem !important;
+}
+
+
 
 a.dropdown-item {
     color:  rgb(16, 16, 65) !important;
