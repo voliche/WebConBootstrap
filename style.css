@@ -168,13 +168,27 @@ hr.dropdown-divider {
 
 }
 
-/* ..................... SECTION HONEYS .................*/
+/* ..................... SECTION HONEYS CARD.................*/
 
 #honey_products {
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: rgb(16, 16, 65);
     font-weight: bold;
+}
+
+.card {
+    text-align: center;
+}
+
+.card h5 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 
