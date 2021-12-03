@@ -179,16 +179,25 @@ hr.dropdown-divider {
 
 .card {
     text-align: center;
+    border-radius: 10px;
+    background-color: rgb(11, 11, 63);
+    margin-top: 2rem;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
 }
 
 .card h5 {
     font-size: 1.6rem;
     font-weight: bold;
+    color: white;
 }
 
 .card p {
     font-size: 1rem;
     font-weight: 400;
+    color: white;
 }
 
 
