@@ -178,7 +178,7 @@ hr.dropdown-divider {
 }
 
 #about_us p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 
@@ -233,6 +233,32 @@ hr.dropdown-divider {
     color: white;
 }
 
+/*........................   ABOUT US .................. */
+
+#contact {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    color: rgb(16, 16, 65);
+    text-align: center;
+    margin: 1rem;
+}
+
+#contact h2 {
+    font-weight: bold;
+}
+
+#contact p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* ·······················   CONTACT ···················· */
+
+.contact {
+    background-color: rgb(255, 183, 88);
+    border-radius: 15px;
+    padding: 1rem;
+}
 
 /* ·······················   FOOTER ···················· */
 
