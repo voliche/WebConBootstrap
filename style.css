@@ -175,7 +175,28 @@ hr.dropdown-divider {
     padding-bottom: 1rem;
     color: rgb(16, 16, 65);
     font-weight: bold;
+}
 
+#about_us p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#about_us img {
+    max-width: 100%;
+}
+
+.about_us {
+    background-color: rgb(253, 209, 143);
+}
+
+.about_us h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.about_us p {
+    font-weight: 400;
 }
 
 /* ..................... SECTION HONEYS CARD.................*/
