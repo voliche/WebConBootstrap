@@ -168,6 +168,14 @@ hr.dropdown-divider {
 
 }
 
+/* ..................... SECTION HONEYS .................*/
+
+#honey_products {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(16, 16, 65);
+    font-weight: bold;
+}
 
 
 /* ·······················   FOOTER ···················· */
@@ -206,6 +214,8 @@ hr.dropdown-divider {
     display: flex;
     padding: 0.2rem;
     align-items: center;
+    justify-content: space-around;
+
 }
 
 #footer2 {
