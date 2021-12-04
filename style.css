@@ -262,10 +262,19 @@ hr.dropdown-divider {
 
 .btn_contact {
     margin-top: 1rem;
-    width: 100%;
+    width: 25%;
     background-color: rgb(16, 16, 65);
     color: white;
-    border-radius: 10px;
+    border-radius: 10px;    
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.btn_contact:hover {
+    background-color: rgb(255, 145, 0);
+    color: rgb(16, 16, 65);
+    border-color: rgb(16, 16, 65);
+    border-width: 2px;
 }
 
 /* ·······················   FOOTER ···················· */
