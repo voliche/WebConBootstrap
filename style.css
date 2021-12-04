@@ -260,6 +260,14 @@ hr.dropdown-divider {
     padding: 1rem;
 }
 
+.btn_contact {
+    margin-top: 1rem;
+    width: 100%;
+    background-color: rgb(16, 16, 65);
+    color: white;
+    border-radius: 10px;
+}
+
 /* ·······················   FOOTER ···················· */
 
 #footer {
