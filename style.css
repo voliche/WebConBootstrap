@@ -174,7 +174,7 @@ hr.dropdown-divider {
 /* ..................... SECTION ABOUT US.................*/
 
 #about_us {
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 1rem;
   color: rgb(16, 16, 65);
 }
@@ -214,7 +214,7 @@ hr.dropdown-divider {
 /* ..................... SECTION HONEYS CARD.................*/
 
 #honey_products {
-  padding-top: 2rem;
+  padding-top: 5rem;
   padding-bottom: 1rem;
   color: rgb(16, 16, 65);
 }
@@ -257,7 +257,7 @@ hr.dropdown-divider {
 /* ·······················   PRODUCTS ···················· */
 
 #products {
-  padding-top: 2rem;
+  padding-top: 5rem;
   padding-bottom: 1rem;
   color: rgb(16, 16, 65);
 }
