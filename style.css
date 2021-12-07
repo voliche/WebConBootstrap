@@ -4,12 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-:target::before {
-  content: "";
-  display: block;
-  height: 3rem;
-}
-
 /* ·······················   BODY ···················· */
 
 body {
@@ -214,7 +208,7 @@ hr.dropdown-divider {
 }
 
 .btnSubscribe {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 /* ..................... SECTION HONEYS CARD.................*/
@@ -239,7 +233,8 @@ hr.dropdown-divider {
   border-radius: 12px;
   background-color: rgb(11, 11, 63);
   margin: 2rem 0.2rem 0 0.2rem;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   border-width: 0;
 }
 
@@ -261,7 +256,26 @@ hr.dropdown-divider {
 
 /* ·······················   PRODUCTS ···················· */
 
+#products {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: rgb(16, 16, 65);
+}
 
+#products h2 {
+  font-weight: bold;
+}
+
+#products small {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.btnProduct {
+    color: rgb(16, 16, 65);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 /* ·······················   CONTACT ···················· */
 
