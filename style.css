@@ -213,6 +213,10 @@ hr.dropdown-divider {
   font-weight: 400;
 }
 
+.btnSubscribe {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 /* ..................... SECTION HONEYS CARD.................*/
 
 #honey_products {
@@ -232,15 +236,15 @@ hr.dropdown-divider {
 
 .card {
   text-align: center;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: rgb(11, 11, 63);
   margin: 2rem 0.2rem 0 0.2rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   border-width: 0;
 }
 
 .card img {
-  border-radius: 10px 10px 0 0;
+  border-radius: 11px 11px 0 0;
 }
 
 .card h5 {
@@ -254,6 +258,10 @@ hr.dropdown-divider {
   font-weight: 400;
   color: white;
 }
+
+/* ·······················   PRODUCTS ···················· */
+
+
 
 /* ·······················   CONTACT ···················· */
 
@@ -279,6 +287,7 @@ hr.dropdown-divider {
   padding: 1rem;
   background-color: rgb(255, 183, 88);
   width: 80%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .btn_contact {
@@ -289,6 +298,7 @@ hr.dropdown-divider {
   border-radius: 10px;
   border-width: 2px;
   font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn_contact:hover {
@@ -376,9 +386,10 @@ hr.dropdown-divider {
 .btnCloseMapLocation {
   background-color: crimson;
   color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .alertLocation {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
