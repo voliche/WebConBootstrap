@@ -235,6 +235,8 @@ hr.dropdown-divider {
   border-radius: 10px;
   background-color: rgb(11, 11, 63);
   margin: 2rem 0.2rem 0 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-width: 0;
 }
 
 .card img {
