@@ -1,352 +1,382 @@
 /* ·······················   SCROLL BEHAVIOR ···················· */
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 3rem;
+}
 
 /* ·······················   BODY ···················· */
 
 body {
-    
-    font-family: 'Baloo 2', cursive;
+  position: relative;
+  font-family: "Baloo 2", cursive;
 }
 
 /* ·······················   HEADER ···················· */
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-    display: flex;
-    background-color: rgb(16, 16, 65) !important;
+  width: 100%;
+  z-index: 2;
+  display: flex;
 }
 
 #header img {
-    width: 5rem;
-    border-radius: 5px;
+  width: 5rem;
+  border-radius: 5px;
 }
 
-
 .navbar-brand {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .navbar-brand:hover {
-    transform: scale(1.5,1.5);
-    transition-duration: 0.2s;
-    transition-delay: 0.1s;
+  transform: scale(1.5, 1.5);
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
 }
 
 .navbar-nav {
-    margin-right: 0.2rem;
+  margin-right: 0.2rem;
 }
 
 .navbar-collapse {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .text-nav {
-    color: rgb(31, 31, 134) !important; 
-    font-size: 1.2rem;
-    font-weight: bold;
+  color: rgb(31, 31, 134) !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 1rem 0 1rem;
 }
 
 .navbar a {
-    color: white !important;
+  color: rgb(16, 16, 65);
 }
 
-.navbar a:hover {
+/* .navbar a:hover {
    text-decoration: overline;
-}
+} */
 
 .navbar-icon-bars {
-    color: white;
-    margin-top: 2px;
-    margin-left: 2px;
-    font-size: 2rem !important;
+  color: rgb(16, 16, 65);
+  margin: 0;
+  font-size: 2rem;
 }
 
 .navbar-toggler {
-    border: 0;
+  border: 0;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-icon-bars:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
+  outline: none;
+  box-shadow: none;
+  border: 0;
 }
 
 .fa-times {
-    color: red;
-    margin-top: 2px;
-    margin-left: 2px;
-    font-size: 2rem !important;
+  color: red;
+  margin-top: 2px;
+  margin-left: 2px;
+  font-size: 2rem !important;
 }
 
-
-
 a.dropdown-item {
-    color:  rgb(16, 16, 65) !important;
-    font-weight: 500;
+  color: rgb(16, 16, 65) !important;
+  font-weight: 500;
 }
 
 hr.dropdown-divider {
-    border-width: 2px;
+  border-width: 2px;
 }
 
 .dropdown-menu {
-    text-align: right;
+  text-align: right;
 }
 
+.text-nav {
+  border-radius: 10px;
+}
 
 /* ·······················   MAIN ···················· */
 
-#main  .carousel-inner img {
+#main .carousel-inner img {
   max-height: 90vh;
-  object-fit: cover; 
-  filter: grayscale(70%); 
+  object-fit: cover;
+  filter: grayscale(70%);
 }
 
 #carousel {
-    position: relative;
-    top: 3.6rem;
-    margin-bottom: 4rem;
+  position: relative;
+  top: 3.6rem;
+  margin-bottom: 4rem;
 }
 
 #carousel p {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 #carousel .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
 }
 
 .overlay {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
 }
 
 .btn-honey1 {
-    background-color: rgb(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-    border-color: white;
-    color: white;
-    border-width: 2px;
-    font-weight: 600;
+  background-color: rgb(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  border-color: white;
+  color: white;
+  border-width: 2px;
+  font-weight: 600;
 }
 
 .btn-honey1:hover {
-    background-color: rgb(255, 197, 71);
-    color:  rgb(16, 16, 65);
-    border-color:  rgb(255, 197, 71);
-
+  background-color: rgb(255, 197, 71);
+  color: rgb(16, 16, 65);
+  border-color: rgb(255, 197, 71);
 }
 
 .btn-honey2 {
-    background-color: rgb(255, 197, 71);
-    border-color:rgb(16, 16, 65);
-    color: rgb(16, 16, 65);
-    border-width: 2px;
-    font-weight: 600;
+  background-color: rgb(255, 197, 71);
+  border-color: rgb(16, 16, 65);
+  color: rgb(16, 16, 65);
+  border-width: 2px;
+  font-weight: 600;
 }
 
 .btn-honey2:hover {
-    background-color: rgb(16, 16, 65);
-    color: rgb(255, 197, 71);
-    border-color:  rgb(16, 16, 65);
-
+  background-color: rgb(16, 16, 65);
+  color: rgb(255, 197, 71);
+  border-color: rgb(16, 16, 65);
 }
 
 /* ..................... SECTION ABOUT US.................*/
 
 #about_us {
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-    color: rgb(16, 16, 65);
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color: rgb(16, 16, 65);
 }
 
 #about_us h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #about_us p {
-    font-size: 1.4rem;
-    font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 #about_us img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .about_us {
-    background-color: rgb(253, 209, 143);
-    display: flex;
-    align-items: center;
+  background-color: rgb(253, 209, 143);
+  display: flex;
+  align-items: center;
 }
 
 .about_us h3 {
-    text-decoration: underline;
-    font-weight: 500;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .about_us p {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /* ..................... SECTION HONEYS CARD.................*/
 
 #honey_products {
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-    color: rgb(16, 16, 65);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: rgb(16, 16, 65);
 }
 
 #honey_products h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #honey_products small {
-    font-weight: 500;
-    font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .card {
-    text-align: center;
-    border-radius: 10px;
-    background-color: rgb(11, 11, 63);
-    margin: 2rem 0.2rem 0 0.2rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(11, 11, 63);
+  margin: 2rem 0.2rem 0 0.2rem;
 }
 
 .card img {
-    border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .card h5 {
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
 }
 
 .card p {
-    font-size: 1rem;
-    font-weight: 400;
-    color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
 }
 
 /* ·······················   CONTACT ···················· */
 
 #contact {
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-    color: rgb(16, 16, 65);
-    text-align: center;
-    margin: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  color: rgb(16, 16, 65);
+  text-align: center;
+  margin: 1rem;
 }
 
 #contact h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #contact p {
-    font-size: 1.4rem;
-    font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
-.contact {
-    background-color: rgb(255, 183, 88);
-    border-radius: 15px;
-    padding: 1rem;
+.form1 {
+  border-radius: 15px;
+  padding: 1rem;
+  background-color: rgb(255, 183, 88);
+  width: 80%;
 }
 
 .btn_contact {
-    margin-top: 1rem;
-    width: 25%;
-    background-color: rgb(16, 16, 65);
-    color: white;
-    border-radius: 10px;    
-    border-width: 2px;
-    font-weight: bold;
+  margin-top: 1rem;
+  width: 40%;
+  background-color: rgb(16, 16, 65);
+  color: white;
+  border-radius: 10px;
+  border-width: 2px;
+  font-weight: bold;
 }
 
 .btn_contact:hover {
-    background-color: rgb(255, 145, 0);
-    color: rgb(16, 16, 65);
-    border-color: rgb(16, 16, 65);
-    border-width: 2px;
+  background-color: rgb(255, 145, 0);
+  color: rgb(16, 16, 65);
+  border-color: rgb(16, 16, 65);
+  border-width: 2px;
 }
 
 /* ·······················   FOOTER ···················· */
 
 #footer {
-    background-color: rgb(20, 20, 92);
-    padding-top: 1.6rem;
-    padding-bottom: 0;
-    margin-top: 1rem;
+  background-color: rgb(20, 20, 92);
+  padding-top: 1.6rem;
+  padding-bottom: 0;
+  margin-top: 1rem;
 }
 
 .footer:hover {
-    transform: scale(1.5,1.5);
-    transition-duration: 0.2s;
-    transition-delay: 0.1s;
+  transform: scale(1.5, 1.5);
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
 }
 
 #footer a {
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 #footer a:hover {
-    color: rgb(211, 255, 124);
+  color: rgb(211, 255, 124);
 }
 
 #footer i:hover {
-    color: rgb(211, 255, 124);
+  color: rgb(211, 255, 124);
 }
 
 #footer1 {
-    display: flex;
-    padding: 0.2rem;
-    align-items: center;
-    justify-content: space-around;
-
+  display: flex;
+  padding: 0.2rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #footer2 {
-    background-color: rgb(16, 16, 65);
-    margin-top: 1.6rem;
+  background-color: rgb(16, 16, 65);
+  margin-top: 1.6rem;
 }
 
 .fab {
-    color: white;
-    font-size: 1.4rem;
+  color: white;
+  font-size: 1.4rem;
 }
 
 .fas {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .footerparagraph {
-    color: white;
-    font-size: 1rem;
-    margin-top: 1rem;
-    font-family: Roboto, sans-serif;
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: Roboto, sans-serif;
+}
+
+/* ·······················   MODAL LOCATION···················· */
+
+.mapLocation {
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 15px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnCloseMapLocation {
+  background-color: crimson;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.alertLocation {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
