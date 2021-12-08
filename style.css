@@ -29,9 +29,10 @@ body {
 }
 
 .navbar-brand:hover {
-  transform: scale(1.5, 1.5);
-  transition-duration: 0.2s;
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.1s;
   transition-delay: 0.1s;
+  transition: 0.3s ease-in-out;
 }
 
 .navbar-nav {
@@ -54,9 +55,13 @@ body {
   color: rgb(16, 16, 65);
 }
 
-/* .navbar a:hover {
+.navbar a:hover {
    text-decoration: overline;
-} */
+   transform: scale(1.2, 1.2);
+   transition-duration: 0.1s;
+   transition-delay: 0.1s;
+   transition: 0.3s ease-in-out;
+} 
 
 .navbar-icon-bars {
   color: rgb(16, 16, 65);
@@ -138,7 +143,7 @@ hr.dropdown-divider {
   justify-content: center;
   text-align: center;
 }
-
+/* 
 .btn-honey1 {
   background-color: rgb(
     rgba(255, 255, 255, 0),
@@ -155,7 +160,7 @@ hr.dropdown-divider {
   background-color: rgb(255, 197, 71);
   color: rgb(16, 16, 65);
   border-color: rgb(255, 197, 71);
-}
+} */
 
 .btn-honey2 {
   background-color: rgb(255, 197, 71);
@@ -169,6 +174,10 @@ hr.dropdown-divider {
   background-color: rgb(16, 16, 65);
   color: rgb(255, 197, 71);
   border-color: rgb(16, 16, 65);
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+  transition: 0.3s ease-in-out;
 }
 
 /* ..................... SECTION ABOUT US.................*/
@@ -209,6 +218,13 @@ hr.dropdown-divider {
 
 .btnSubscribe {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btnSubscribe:hover {
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+  transition: 0.3s ease-in-out;
 }
 
 /* ..................... SECTION HONEYS CARD.................*/
@@ -283,6 +299,13 @@ hr.dropdown-divider {
     font-size: 1.2rem;
 }
 
+.btnProduct:hover {
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+  transition: 0.3s ease-in-out;
+}
+
 /* ·······················   CONTACT ···················· */
 
 #contact {
@@ -326,6 +349,10 @@ hr.dropdown-divider {
   color: rgb(16, 16, 65);
   border-color: rgb(16, 16, 65);
   border-width: 2px;
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+  transition: 0.3s ease-in-out;
 }
 
 /* ·······················   FOOTER ···················· */
@@ -338,9 +365,10 @@ hr.dropdown-divider {
 }
 
 .footer:hover {
-  transform: scale(1.5, 1.5);
-  transition-duration: 0.2s;
+  transform: scale(1.4, 1.4);
+  transition-duration: 0.1s;
   transition-delay: 0.1s;
+  transition: 0.3s ease-in-out;
 }
 
 #footer a {
