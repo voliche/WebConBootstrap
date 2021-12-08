@@ -260,6 +260,12 @@ hr.dropdown-divider {
   padding-top: 5rem;
   padding-bottom: 1rem;
   color: rgb(16, 16, 65);
+
+}
+
+.productsFlex {
+  display: flex;
+  align-items: stretch;
 }
 
 #products h2 {
